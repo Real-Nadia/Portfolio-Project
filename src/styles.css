@@ -19,7 +19,8 @@ p {
 .homepage {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 130px 20px;
+  margin-bottom: 70px;
 }
 .homepage h2 {
   font-size: 36px;
@@ -37,4 +38,38 @@ p {
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
+}
+.yogurt-para {
+  text-align: center;
+}
+.yogurt-pic {
+  background-color: var(--secondary-color);
+}
+.yogurt-heading {
+  font-family: var(--heading-font);
+  font-weight: bold;
+  font-size: 64px;
+  margin-bottom: 45px;
+}
+.yogurt-content {
+  padding: 80px;
+  margin-top: 90px;
+}
+.yogurt-paragraph {
+  opacity: 70%;
+  line-height: 35px;
+  margin-bottom: 45px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.view-details-btn {
+  color: var(--branding-color);
+  padding: 18px 30px 18px 30px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  border: 1px solid;
+}
+.container {
+  margin-top: 70px;
 }
