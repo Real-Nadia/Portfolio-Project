@@ -56,7 +56,7 @@ p {
   margin-top: 90px;
 }
 .yogurt-paragraph {
-  opacity: 70%;
+  opacity: 80%;
   line-height: 35px;
   margin-bottom: 45px;
   font-size: 18px;
@@ -72,4 +72,29 @@ p {
 }
 .container {
   margin-top: 70px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  .yogurt-heading {
+    font-size: 44px;
+    margin-top: 0;
+  }
+  .yogurt-pic {
+    display: none;
+  }
+  .homepage {
+    padding: 70px 20px;
+  }
+  .yogurt-content {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 30px;
+    text-align: center;
+  }
+  .container {
+    margin-top: 0px;
+  }
 }
