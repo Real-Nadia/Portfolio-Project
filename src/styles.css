@@ -97,6 +97,16 @@ p {
   .container {
     margin-top: 0px;
   }
+
+  /*About Page*/
+  .about-page .profile-image {
+    margin-top: 40px;
+  }
+  .about-page h1,
+  h2,
+  p {
+    text-align: center;
+  }
 }
 
 /*about page */
@@ -113,5 +123,5 @@ p {
   line-height: 36px;
   margin-block-end: 48px;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 48px;
 }
