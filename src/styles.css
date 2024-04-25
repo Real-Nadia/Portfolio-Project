@@ -1,127 +1,121 @@
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
-  --heading-font: "Playfair Display", serif;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
 }
+
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
 }
-h1 {
-  font-family: var(--heading-font);
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
   font-weight: bold;
+}
+
+h1 {
   font-size: 96px;
-  line-height: 127.97px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 64px;
 }
 
 p {
-  font-weight: 400;
-}
-.homepage {
-  background: var(--secondary-color);
-  text-align: center;
-  padding: 130px 20px;
-  margin-bottom: 70px;
-}
-.homepage h2 {
-  font-size: 36px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 
-.homepage p {
-  font-size: 24px;
-  line-height: 36px;
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
   color: #272142;
 }
-.start-btn {
-  color: #fff;
-  background: var(--branding-color);
-  padding: 18px 30px 18px 30px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 27px;
+
+.hero h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  line-height: 1.5;
+  font-size: 24px;
 }
-.yogurt-para {
-  text-align: center;
+
+.about-section {
+  padding: 160px 20px;
 }
-.yogurt-pic {
-  background-color: var(--secondary-color);
-}
-.yogurt-heading {
-  font-family: var(--heading-font);
-  font-weight: bold;
+
+.about-section h1 {
   font-size: 64px;
-  margin-bottom: 45px;
+  line-height: 80px;
 }
-.yogurt-content {
-  padding: 80px;
-  margin-top: 90px;
-}
-.yogurt-paragraph {
-  opacity: 80%;
-  line-height: 35px;
-  margin-bottom: 45px;
+
+.about-section h2 {
   font-size: 18px;
-  font-weight: 400;
+  font-family: var(--default-font-family);
 }
-.view-details-btn {
+
+.about-section-content {
+  margin: 30px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.btn-branding-outline {
   color: var(--branding-color);
-  padding: 18px 30px 18px 30px;
+  border: 1px solid var(--branding-color);
   border-radius: 4px;
   font-size: 18px;
   line-height: 27px;
-  border: 1px solid;
+  padding: 15px 30px;
 }
-.container {
-  margin-top: 70px;
+
+.project-desciption {
+  padding: 120px 60px;
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
-    line-height: 1.5;
+    line-height: 56px;
   }
-  .yogurt-heading {
+
+  h2 {
     font-size: 44px;
-    margin-top: 0;
   }
-  .yogurt-pic {
-    display: none;
+
+  .hero {
+    padding: 80px 20px;
   }
-  .homepage {
-    padding: 70px 20px;
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
-  .yogurt-content {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding: 30px;
+
+  .project-desciption {
+    padding: 0;
     text-align: center;
   }
-  .container {
-    margin-top: 0px;
-  }
-
-  /*About Page*/
-  .about-page .profile-image {
-    margin-top: 40px;
-  }
-  .about-page h1,
-  h2,
-  p {
-    text-align: center;
-  }
-}
-
-/*about page */
-
-.about-page h1 {
-  font-size: 64px;
-  line-height: 1.3;
-}
-
-.about-intro {
-  font-size: 28px;
-  font-weight: 500;
-  height: 35px;
-  line-height: 36px;
-  margin-block-end: 48px;
-  margin-top: 30px;
-  margin-bottom: 48px;
 }
