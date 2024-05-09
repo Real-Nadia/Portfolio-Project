@@ -40,7 +40,7 @@ p {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -102,7 +102,7 @@ p {
 }
 
 .work-section-content {
-  padding: 160px 80px;
+  padding: 60px 80px;
 }
 
 .work-section-content p,
@@ -205,10 +205,6 @@ footer .social-links a:hover {
 
   h2 {
     font-size: 44px;
-  }
-
-  .hero {
-    padding: 80px 20px;
   }
 
   .about-section {
